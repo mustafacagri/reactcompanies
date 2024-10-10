@@ -138,11 +138,13 @@ export function Header() {
                           </Link>
                         </li>
                       ))}
-                      <li
-                        onClick={logout}
-                        className='cursor-pointer block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700'
-                      >
-                        Logout
+                      <li>
+                        <button
+                          onClick={logout}
+                          className='cursor-pointer block w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        >
+                          {$t('header.logout')}
+                        </button>
                       </li>
                     </ul>
                   </div>
