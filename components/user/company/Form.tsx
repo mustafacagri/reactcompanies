@@ -19,10 +19,10 @@ export default function CompanyForm({ company, user }: Readonly<{ company: Compa
 
   const [formData, setFormData] = useState<Company>({
     user_id: company?.user_id ?? user?.id ?? '',
-    name: company?.name || '',
+    name: company?.name ?? '',
     headquarters: company?.headquarters ?? '',
     founded_year: company?.founded_year,
-    logo: company?.logo || '',
+    logo: company?.logo ?? '',
     github: company?.github ?? '',
     medium: company?.medium ?? '',
     linkedin: company?.linkedin ?? '',

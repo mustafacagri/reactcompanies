@@ -9,7 +9,7 @@ export function CompanyContainer({
   companies,
   isFeatured,
 }: Readonly<{
-  companies?: Company[] | undefined
+  companies?: Company[]
   isFeatured?: boolean
 }>) {
   companies ??= []
