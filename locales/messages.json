@@ -1,0 +1,1932 @@
+{
+  "en": {
+    "buttons": {
+      "close": "Close"
+    },
+    "contact": {
+      "message": "If you have any questions, feel free to reach out to us.",
+      "subtitle": "We're here to assist you.",
+      "thankYou": "Thanks!",
+      "title": "Contact Us"
+    },
+    "generic": {
+      "N/A": "N/A",
+      "No": "No",
+      "Yes": "Yes",
+      "active": "Active",
+      "allRightsReserved": "All rights reserved",
+      "hiring": "Hiring",
+      "hybrid": "Hybrid",
+      "loading": "Loading...",
+      "remote": "Remote",
+      "waitingForApproval": "Pending Approval"
+    },
+    "header": {
+      "about": "About",
+      "companies": "Companies",
+      "contact": "Contact",
+      "freelancers": "Freelancers",
+      "hire": "Hire a React Developer",
+      "home": "Home",
+      "jobs": "Job Listings",
+      "login": "Log in",
+      "logout": "Logout",
+      "postAJob": "Post a Job",
+      "userMenu": {
+        "myCompany": "My Company",
+        "myJobs": "My Jobs",
+        "myfreelancerAccount": "Freelancer Dashboard",
+        "profile": "Profile"
+      }
+    },
+    "home": {
+      "applyNow": "Apply Now",
+      "bottom": {
+        "section1": {
+          "description": "Welcome to ReactCompanies.com, your go-to platform 🌐 for all things React.js and Next.js! Whether you’re a driven frontend developer 🧑‍💻, a company looking for talent 🏢, or just a fan of React, there’s something here for you. Explore top companies 🏆 working with React.js, find exciting job opportunities 💼 or share your own React success story!",
+          "title": "About ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Curated React.js and Next.js jobs from leading companies",
+            "🚀 Fast-growing global community of developers",
+            "🌍 Worldwide job opportunities",
+            "🔍 Effortless job search and filters",
+            "🤝 Connect directly with top recruiters",
+            "🎉 100% free to use!"
+          ],
+          "title": "Why Choose Us?"
+        },
+        "section3": {
+          "messages": {
+            "1": "Are you interested in getting featured or posting a job? It's simple! 🎉 Just contact us, and we'll take care of it.",
+            "2": "Follow us on social media 🌐 and join our community to stay updated with the latest React.js opportunities."
+          },
+          "title": "Get Involved"
+        }
+      },
+      "featuredJobs": "Featured Jobs",
+      "freelancers": {
+        "hour": "per hour"
+      },
+      "openJobs": "Open Jobs",
+      "viewAllJobs": "See All Jobs"
+    },
+    "homepage": {
+      "featuredCompanies": "Featured Companies",
+      "featuredFreelancers": "Top Freelancers & Contractors",
+      "subtitle": "Discover companies leveraging React.js and find your next opportunity in the React.js ecosystem.",
+      "title": "Connecting {0}React.js Companies{1} {2} with Talented Developers",
+      "viewMoreCompanies": "Explore More Companies"
+    },
+    "job": {
+      "useHead": {
+        "description": "{title} at {company} is hiring a React.js developer & contractor or freelancer - React Jobs",
+        "title": "{title} at {company} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Employment Types:",
+      "seniorityLevels": "Seniority Levels:"
+    },
+    "login": {
+      "backToLogin": "Return to Login",
+      "confirmPassword": "Confirm Password",
+      "email": "Email",
+      "emailError": "Invalid email address",
+      "forgotPassword": "Forgot your password?",
+      "login": "Log in",
+      "or": "or",
+      "password": "Password",
+      "passwordErrorMin": "Password must be at least {0} characters",
+      "passwordMatchError": "Passwords do not match",
+      "register": "Register",
+      "registerNow": "New here? Sign up now →",
+      "resetPassword": "Reset Password",
+      "text": "You can use your account to {0}",
+      "withX": "with {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{name} is an expert React.js developer specializing in freelance and contract work.",
+        "title": "{name} - React.js Developer - Freelancer - Contractor"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Search..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "An error occurred while saving the company information. Please try again later.",
+          "errorField": "The {0} field cannot be left blank.",
+          "foundedYear": "Year Founded",
+          "headquarters": "Headquarters",
+          "logo": "Logo",
+          "name": "Name",
+          "save": "Save Company Profile",
+          "success": "Company information saved successfully."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Country",
+          "currency": "Currency",
+          "description": "Description",
+          "email": "Email",
+          "error": "An error occurred while saving the freelancer profile. Please try again later.",
+          "github": "GitHub",
+          "githubPlaceholder": "GitHub Profile URL",
+          "img": "Avatar Photo URL",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "LinkedIn Profile URL",
+          "medium": "Medium",
+          "mediumPlaceholder": "Medium Profile URL",
+          "name": "Name",
+          "perHourPrice": "Hourly Rate",
+          "save": "Save Freelancer Profile",
+          "saving": "Saving...",
+          "success": "Freelancer profile saved successfully.",
+          "title": "Title",
+          "username": "Username",
+          "website": "Website"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Job Application Link",
+          "applyLinkPlaceholder": "Your job application URL, e.g., https://linkedin.com...",
+          "company": "Company Name",
+          "country": "Country",
+          "createCompany": "Create a Company Profile",
+          "employmentType": "Employment Type",
+          "error": "An error occurred while saving the job posting. Please try again later.",
+          "noCompany": "You haven’t added a company yet. Start by adding your first one.",
+          "save": "Save Job Posting",
+          "seniorityLevel": "Seniority Level",
+          "success": "Job posting saved successfully.",
+          "title": "Job Title",
+          "titlePlaceholder": "e.g., Full Stack Developer (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "No jobs found."
+      },
+      "menu": {
+        "account": "Account",
+        "company": "Company",
+        "editTheJob": "Edit Job Posting",
+        "freelancer": "Freelancer",
+        "myCompany": "My Company",
+        "myFreelancerAccount": "Freelancer Dashboard",
+        "myJobPosts": "My Job Posts",
+        "postAJob": "Post a Job",
+        "profileSettings": "Profile Settings"
+      },
+      "profile": {
+        "loginProviders": "Login providers:"
+      }
+    }
+  },
+  "es": {
+    "buttons": {
+      "close": "Cerrar"
+    },
+    "contact": {
+      "message": "Si tiene alguna pregunta, no dude en ponerse en contacto con nosotros.",
+      "subtitle": "Estamos aquí para ayudarle.",
+      "thankYou": "Gracias",
+      "title": "Póngase en contacto con nosotros"
+    },
+    "generic": {
+      "N/A": "N/A",
+      "No": "No",
+      "Yes": "Sí",
+      "active": "Activo",
+      "allRightsReserved": "Todos los derechos reservados",
+      "hiring": "Contratación",
+      "hybrid": "Híbrido",
+      "loading": "Cargando...",
+      "remote": "Remoto",
+      "waitingForApproval": "Pendiente de aprobación"
+    },
+    "header": {
+      "about": "Acerca de",
+      "companies": "Empresas",
+      "contact": "Póngase en contacto con",
+      "freelancers": "Autónomos",
+      "hire": "Contratar a un desarrollador React",
+      "home": "Inicio",
+      "jobs": "Ofertas de empleo",
+      "login": "Conectarse",
+      "logout": "Cierre de sesión",
+      "postAJob": "Publicar un empleo",
+      "userMenu": {
+        "myCompany": "Mi empresa",
+        "myJobs": "Mis empleos",
+        "myfreelancerAccount": "Panel de control Freelancer",
+        "profile": "Perfil"
+      }
+    },
+    "home": {
+      "applyNow": "Solicitar ahora",
+      "bottom": {
+        "section1": {
+          "description": "Bienvenido a ReactCompanies.com, tu plataforma 🌐 para todo lo relacionado con React.js y Next.js Si eres un desarrollador frontend 🧑‍💻, una empresa en busca de talento 🏢, o simplemente un fan de React, aquí hay algo para ti. Explora las principales empresas 🏆 que trabajan con React.js, encuentra interesantes oportunidades de trabajo 💼 ¡o comparte tu propia historia de éxito con React!",
+          "title": "Acerca de ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Curated React.js y Next.js puestos de trabajo de las principales empresas",
+            "🚀 Comunidad mundial de desarrolladores en rápido crecimiento",
+            "oportunidades de empleo en todo el mundo",
+            "🔍 Búsqueda de empleo y filtros sin esfuerzo",
+            "🤝 Conecta directamente con los mejores reclutadores",
+            "🎉 ¡Uso 100% gratuito!"
+          ],
+          "title": "¿Por qué elegirnos?"
+        },
+        "section3": {
+          "messages": {
+            "1": "¿Está interesado en que le propongan un puesto o en elegir uno? ¡Es muy fácil! 🎉 Ponte en contacto con nosotros y te ayudaremos.",
+            "2": "Síguenos en los medios sociales 🌐 y únete a nuestra comunidad para conocer las últimas novedades de React.js."
+          },
+          "title": "Comprométase"
+        }
+      },
+      "featuredJobs": "Ofertas de empleo",
+      "freelancers": {
+        "hour": "por hora"
+      },
+      "openJobs": "Puestos vacantes",
+      "viewAllJobs": "Ver todos los empleos"
+    },
+    "homepage": {
+      "featuredCompanies": "Empresas destacadas",
+      "featuredFreelancers": "Los mejores autónomos y contratistas",
+      "subtitle": "Descubra empresas que utilizan React.js y encuentre su próxima oportunidad en el ecosistema React.js.",
+      "title": "Conectando {0}Empresas de React.js{1} {2} con desarrolladores de talento",
+      "viewMoreCompanies": "Explorar más empresas"
+    },
+    "job": {
+      "useHead": {
+        "description": "{title} at {company} is hiring a React.js developer & contractor or freelancer - React Jobs",
+        "title": "{title} en {company} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Tipos de empleo:",
+      "seniorityLevels": "Niveles de antigüedad:"
+    },
+    "login": {
+      "backToLogin": "Volver al inicio de sesión",
+      "confirmPassword": "Confirmar contraseña",
+      "email": "Correo electrónico",
+      "emailError": "Dirección de correo electrónico no válida",
+      "forgotPassword": "¿Ha olvidado su contraseña?",
+      "login": "Conectarse",
+      "or": "o",
+      "password": "Contraseña",
+      "passwordErrorMin": "La contraseña debe tener al menos {0} caracteres",
+      "passwordMatchError": "Las contraseñas no coinciden",
+      "register": "Regístrese en",
+      "registerNow": "¿Eres nuevo aquí? Regístrate ahora →",
+      "resetPassword": "Restablecer contraseña",
+      "text": "Puede utilizar su cuenta para {0}",
+      "withX": "con {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{name} es un desarrollador experto en React.js especializado en trabajos freelance y por contrato.",
+        "title": "{name} - Desarrollador React.js - Freelancer - Contratista"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Buscar..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "Se ha producido un error al guardar la información de la empresa. Vuelva a intentarlo más tarde.",
+          "errorField": "El campo {0} no puede dejarse en blanco.",
+          "foundedYear": "Año de fundación",
+          "headquarters": "Sede central",
+          "logo": "Logotipo",
+          "name": "Nombre",
+          "save": "Guardar perfil de la empresa",
+          "success": "La información de la empresa se ha guardado correctamente."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "País",
+          "currency": "Moneda",
+          "description": "Descripción",
+          "email": "Correo electrónico",
+          "error": "Se ha producido un error al guardar el perfil de autónomo. Vuelva a intentarlo más tarde.",
+          "github": "GitHub",
+          "githubPlaceholder": "URL del perfil de GitHub",
+          "img": "Avatar Foto URL",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "URL del perfil de LinkedIn",
+          "medium": "Medio",
+          "mediumPlaceholder": "URL del perfil de Medium",
+          "name": "Nombre",
+          "perHourPrice": "Precio por hora",
+          "save": "Guardar perfil de autónomo",
+          "saving": "Ahorrar...",
+          "success": "Perfil de autónomo guardado correctamente.",
+          "title": "Título",
+          "username": "Nombre de usuario",
+          "website": "Página web"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Enlace de solicitud de empleo",
+          "applyLinkPlaceholder": "La URL de su solicitud de empleo, por ejemplo, https://linkedin.com...",
+          "company": "Nombre de la empresa",
+          "country": "País",
+          "createCompany": "Crear un perfil de empresa",
+          "employmentType": "Tipo de empleo",
+          "error": "Se ha producido un error al guardar la oferta de empleo. Vuelva a intentarlo más tarde.",
+          "noCompany": "Aún no has añadido ninguna empresa. Empieza por añadir la primera.",
+          "save": "Guardar anuncio de empleo",
+          "seniorityLevel": "Nivel de antigüedad",
+          "success": "Publicación de empleo guardada correctamente.",
+          "title": "Puesto",
+          "titlePlaceholder": "p. ej., Desarrollador Full Stack (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "No se han encontrado empleos."
+      },
+      "menu": {
+        "account": "Cuenta",
+        "company": "Empresa",
+        "editTheJob": "Editar anuncio de empleo",
+        "freelancer": "Trabajador autónomo",
+        "myCompany": "Mi empresa",
+        "myFreelancerAccount": "Panel de control Freelancer",
+        "myJobPosts": "Mis puestos de trabajo",
+        "postAJob": "Publicar un empleo",
+        "profileSettings": "Configuración del perfil"
+      },
+      "profile": {
+        "loginProviders": "Proveedores de acceso:"
+      }
+    }
+  },
+  "fr": {
+    "buttons": {
+      "close": "Fermer"
+    },
+    "contact": {
+      "message": "Si vous avez des questions, n'hésitez pas à nous contacter.",
+      "subtitle": "Nous sommes là pour vous aider.",
+      "thankYou": "Merci de votre attention !",
+      "title": "Nous contacter"
+    },
+    "generic": {
+      "N/A": "N/A",
+      "No": "Non",
+      "Yes": "Oui",
+      "active": "Actif",
+      "allRightsReserved": "Tous droits réservés",
+      "hiring": "Embauche",
+      "hybrid": "Hybride",
+      "loading": "Chargement...",
+      "remote": "A distance",
+      "waitingForApproval": "En attente d'approbation"
+    },
+    "header": {
+      "about": "A propos de",
+      "companies": "Entreprises",
+      "contact": "Contact",
+      "freelancers": "Indépendants",
+      "hire": "Embaucher un développeur React",
+      "home": "Accueil",
+      "jobs": "Offres d'emploi",
+      "login": "Se connecter",
+      "logout": "Déconnexion",
+      "postAJob": "Publier un emploi",
+      "userMenu": {
+        "myCompany": "Mon entreprise",
+        "myJobs": "Mes emplois",
+        "myfreelancerAccount": "Tableau de bord du freelance",
+        "profile": "Profil"
+      }
+    },
+    "home": {
+      "applyNow": "Postuler",
+      "bottom": {
+        "section1": {
+          "description": "Bienvenue sur ReactCompanies.com, votre plateforme de référence 🌐 pour tout ce qui concerne React.js et Next.js ! Que vous soyez un développeur frontend motivé 🧑‍💻, une entreprise à la recherche de talents 🏢, ou simplement un fan de React, il y a quelque chose ici pour vous. Explorez les meilleures entreprises 🏆 qui travaillent avec React.js, trouvez des opportunités d'emploi passionnantes 💼 ou partagez votre propre histoire de réussite React !",
+          "title": "À propos de ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Des offres d'emploi en React.js et Next.js curatées par des entreprises de premier plan",
+            "🚀 Communauté mondiale de développeurs à croissance rapide",
+            "🌍 Offres d'emploi dans le monde entier",
+            "🔍 Recherche d'emploi et filtres sans effort",
+            "🤝 Entrer en contact direct avec les meilleurs recruteurs",
+            "🎉 Utilisation 100% gratuite !"
+          ],
+          "title": "Pourquoi nous choisir ?"
+        },
+        "section3": {
+          "messages": {
+            "1": "Êtes-vous intéressé par le fait d'avoir un poste à pourvoir ou d'avoir un poste à pourvoir ? C'est tout simple ! 🎉 Communiquez avec nous et nous vous aiderons à le faire.",
+            "2": "Suivez-nous sur les médias sociaux 🌐 et faites appel à notre communauté pour obtenir les dernières nouveautés de React.js."
+          },
+          "title": "Engagez-vous"
+        }
+      },
+      "featuredJobs": "Offres d'emploi",
+      "freelancers": {
+        "hour": "par heure"
+      },
+      "openJobs": "Emplois ouverts",
+      "viewAllJobs": "Voir tous les emplois"
+    },
+    "homepage": {
+      "featuredCompanies": "Entreprises en vedette",
+      "featuredFreelancers": "Top Freelancers & Contractors",
+      "subtitle": "Découvrez les entreprises qui utilisent React.js et trouvez votre prochaine opportunité dans l'écosystème React.js.",
+      "title": "Connecter les entreprises {0}React.js{1} {2} avec des développeurs talentueux",
+      "viewMoreCompanies": "Explorer d'autres entreprises"
+    },
+    "job": {
+      "useHead": {
+        "description": "le site de {titre} de {l'entreprise} recrute un développeur React.js & un entrepreneur ou un freelance - React Jobs",
+        "title": "{titre} chez {société} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Types d'emploi :",
+      "seniorityLevels": "Niveaux d'ancienneté :"
+    },
+    "login": {
+      "backToLogin": "Retour à la connexion",
+      "confirmPassword": "Confirmer le mot de passe",
+      "email": "Courriel",
+      "emailError": "Adresse électronique invalide",
+      "forgotPassword": "Vous avez oublié votre mot de passe ?",
+      "login": "Se connecter",
+      "or": "ou",
+      "password": "Mot de passe",
+      "passwordErrorMin": "Le mot de passe doit comporter au moins {0} caractères",
+      "passwordMatchError": "Les mots de passe ne correspondent pas",
+      "register": "Registre",
+      "registerNow": "Nouveau ici ? S'inscrire →",
+      "resetPassword": "Réinitialiser le mot de passe",
+      "text": "Vous pouvez utiliser votre compte pour {0}",
+      "withX": "avec {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{nom} est un développeur expert React.js spécialisé dans le travail freelance et contractuel.",
+        "title": "{nom} - Développeur React.js - Freelancer - Contractor"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Recherche..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "Une erreur s'est produite lors de l'enregistrement des informations sur l'entreprise. Veuillez réessayer plus tard.",
+          "errorField": "Le champ {0} ne peut pas être laissé vide.",
+          "foundedYear": "Année de création",
+          "headquarters": "Siège",
+          "logo": "Logo",
+          "name": "Nom",
+          "save": "Save Profil de l'entreprise",
+          "success": "Les informations sur l'entreprise ont été sauvegardées avec succès."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Pays",
+          "currency": "Monnaie",
+          "description": "Description",
+          "email": "Courriel",
+          "error": "Une erreur s'est produite lors de l'enregistrement du profil du freelance. Veuillez réessayer plus tard.",
+          "github": "GitHub",
+          "githubPlaceholder": "URL du profil GitHub",
+          "img": "URL de la photo de l'avatar",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "URL du profil LinkedIn",
+          "medium": "Moyen",
+          "mediumPlaceholder": "URL du profil Medium",
+          "name": "Nom",
+          "perHourPrice": "Taux horaire",
+          "save": "Sauvegarder le profil de l'indépendant",
+          "saving": "Économiser...",
+          "success": "Le profil du freelance a été enregistré avec succès.",
+          "title": "Titre",
+          "username": "Nom d'utilisateur",
+          "website": "Site web"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Lien vers la demande d'emploi",
+          "applyLinkPlaceholder": "L'URL de votre demande d'emploi, par exemple https://linkedin.com...",
+          "company": "Nom de l'entreprise",
+          "country": "Pays",
+          "createCompany": "Créer un profil d'entreprise",
+          "employmentType": "Type d'emploi",
+          "error": "Une erreur s'est produite lors de l'enregistrement de l'offre d'emploi. Veuillez réessayer plus tard.",
+          "noCompany": "Vous n'avez pas encore ajouté d'entreprise. Commencez par ajouter votre première entreprise.",
+          "save": "Sauvegarder l'offre d'emploi",
+          "seniorityLevel": "Niveau d'ancienneté",
+          "success": "L'offre d'emploi a été enregistrée avec succès.",
+          "title": "Titre du poste",
+          "titlePlaceholder": "par exemple, Développeur Full Stack (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "Aucun emploi n'a été trouvé."
+      },
+      "menu": {
+        "account": "Compte",
+        "company": "Entreprise",
+        "editTheJob": "Modifier l'offre d'emploi",
+        "freelancer": "Pigiste",
+        "myCompany": "Mon entreprise",
+        "myFreelancerAccount": "Tableau de bord du freelance",
+        "myJobPosts": "Mes postes de travail",
+        "postAJob": "Publier un emploi",
+        "profileSettings": "Paramètres du profil"
+      },
+      "profile": {
+        "loginProviders": "Fournisseurs d'accès :"
+      }
+    }
+  },
+  "de": {
+    "buttons": {
+      "close": "Schließen Sie"
+    },
+    "contact": {
+      "message": "Wenn Sie Fragen haben, können Sie sich gerne an uns wenden.",
+      "subtitle": "Wir sind hier, um Sie zu unterstützen.",
+      "thankYou": "Danke!",
+      "title": "Kontakt"
+    },
+    "generic": {
+      "N/A": "K.A",
+      "No": "Nein",
+      "Yes": "Ja",
+      "active": "Aktiv",
+      "allRightsReserved": "Alle Rechte vorbehalten",
+      "hiring": "Einstellung",
+      "hybrid": "Hybride",
+      "loading": "Laden...",
+      "remote": "Fernbedienung",
+      "waitingForApproval": "Genehmigung ausstehend"
+    },
+    "header": {
+      "about": "Über",
+      "companies": "Unternehmen",
+      "contact": "Kontakt",
+      "freelancers": "Freiberufler",
+      "hire": "Einen React-Entwickler anheuern",
+      "home": "Startseite",
+      "jobs": "Job-Angebote",
+      "login": "Einloggen",
+      "logout": "Abmeldung",
+      "postAJob": "Job ausschreiben",
+      "userMenu": {
+        "myCompany": "Mein Unternehmen",
+        "myJobs": "Meine Jobs",
+        "myfreelancerAccount": "Freelancer Dashboard",
+        "profile": "Profil"
+      }
+    },
+    "home": {
+      "applyNow": "Jetzt bewerben",
+      "bottom": {
+        "section1": {
+          "description": "Willkommen bei ReactCompanies.com, Ihrer Anlaufstelle 🌐 für alles, was mit React.js und Next.js zu tun hat! Ob Sie ein engagierter Frontend-Entwickler 🧑‍💻, ein Unternehmen auf der Suche nach Talenten 🏢 oder einfach nur ein Fan von React sind, hier ist etwas für Sie dabei. Entdecken Sie Top-Unternehmen 🏆, die mit React.js arbeiten, finden Sie spannende Jobangebote 💼 oder teilen Sie Ihre eigene React-Erfolgsgeschichte!",
+          "title": "Über ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Kuratierte React.js und Next.js Jobs von führenden Unternehmen",
+            "🚀 Schnell wachsende globale Gemeinschaft von Entwicklern",
+            "🌍 Weltweite Beschäftigungsmöglichkeiten",
+            "🔍 Mühelose Stellensuche und Filter",
+            "🤝 Direkter Kontakt zu Top-Recruitern",
+            "🎉 100% kostenlos zu verwenden!"
+          ],
+          "title": "Warum uns wählen?"
+        },
+        "section3": {
+          "messages": {
+            "1": "Sind Sie daran interessiert, vorgestellt zu werden oder eine Stelle auszuschreiben? Das ist ganz einfach! 🎉 Kontaktieren Sie uns, und wir kümmern uns darum.",
+            "2": "Folgen Sie uns auf den sozialen Medien 🌐 und treten Sie unserer Community bei, um die neuesten React.js-Angebote zu erhalten."
+          },
+          "title": "Engagieren Sie sich"
+        }
+      },
+      "featuredJobs": "Ausgewählte Jobs",
+      "freelancers": {
+        "hour": "pro Stunde"
+      },
+      "openJobs": "Offene Stellen",
+      "viewAllJobs": "Alle Jobs anzeigen"
+    },
+    "homepage": {
+      "featuredCompanies": "Ausgewählte Unternehmen",
+      "featuredFreelancers": "Top Freiberufler & Auftragnehmer",
+      "subtitle": "Entdecken Sie Unternehmen, die React.js nutzen, und finden Sie Ihre nächste Chance im React.js Ökosystem.",
+      "title": "Verbindung von {0}React.js Unternehmen{1} {2} mit talentierten Entwicklern",
+      "viewMoreCompanies": "Weitere Unternehmen erkunden"
+    },
+    "job": {
+      "useHead": {
+        "description": "{title} at {company} is hiring a React.js developer & contractor or freelancer - React Jobs",
+        "title": "{Titel} bei {Unternehmen} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Beschäftigungsarten:",
+      "seniorityLevels": "Dienstaltersstufen:"
+    },
+    "login": {
+      "backToLogin": "Zurück zum Login",
+      "confirmPassword": "Bestätigen Sie Ihr Passwort",
+      "email": "E-Mail",
+      "emailError": "Ungültige E-Mail Adresse",
+      "forgotPassword": "Haben Sie Ihr Passwort vergessen?",
+      "login": "Einloggen",
+      "or": "oder",
+      "password": "Passwort",
+      "passwordErrorMin": "Das Passwort muss mindestens {0} Zeichen enthalten",
+      "passwordMatchError": "Passwörter stimmen nicht überein",
+      "register": "Register",
+      "registerNow": "Neu hier? Jetzt anmelden →",
+      "resetPassword": "Passwort zurücksetzen",
+      "text": "Sie können Ihr Konto verwenden, um {0}",
+      "withX": "mit {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{name} ist ein erfahrener React.js-Entwickler, der sich auf freiberufliche und Auftragsarbeiten spezialisiert hat.",
+        "title": "{name} - React.js Entwickler - Freelancer - Freiberufler"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Suche..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "Beim Speichern der Unternehmensdaten ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+          "errorField": "Das Feld {0} kann nicht leer gelassen werden.",
+          "foundedYear": "Jahr der Gründung",
+          "headquarters": "Hauptsitz",
+          "logo": "Logo",
+          "name": "Name",
+          "save": "Unternehmensprofil speichern",
+          "success": "Unternehmensinformationen erfolgreich gespeichert."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Land",
+          "currency": "Währung",
+          "description": "Beschreibung",
+          "email": "E-Mail",
+          "error": "Beim Speichern des Freiberuflerprofils ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+          "github": "GitHub",
+          "githubPlaceholder": "GitHub-Profil-URL",
+          "img": "Avatar-Foto-URL",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "LinkedIn Profil-URL",
+          "medium": "Mittel",
+          "mediumPlaceholder": "Medium Profil-URL",
+          "name": "Name",
+          "perHourPrice": "Stundensatz",
+          "save": "Freelancer-Profil speichern",
+          "saving": "Sparen...",
+          "success": "Freelancer-Profil erfolgreich gespeichert.",
+          "title": "Titel",
+          "username": "Benutzername",
+          "website": "Website"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Link zur Stellenbewerbung",
+          "applyLinkPlaceholder": "Ihre Bewerbungs-URL, z. B. https://linkedin.com...",
+          "company": "Name des Unternehmens",
+          "country": "Land",
+          "createCompany": "Ein Unternehmensprofil erstellen",
+          "employmentType": "Art der Beschäftigung",
+          "error": "Beim Speichern der Stellenausschreibung ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+          "noCompany": "Sie haben noch kein Unternehmen hinzugefügt. Beginnen Sie mit dem Hinzufügen Ihres ersten Unternehmens.",
+          "save": "Stellenausschreibung speichern",
+          "seniorityLevel": "Dienstaltersstufe",
+          "success": "Stellenausschreibung erfolgreich gespeichert.",
+          "title": "Berufsbezeichnung",
+          "titlePlaceholder": "z. B. Full Stack Developer (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "Keine Jobs gefunden."
+      },
+      "menu": {
+        "account": "Konto",
+        "company": "Unternehmen",
+        "editTheJob": "Stellenausschreibung bearbeiten",
+        "freelancer": "Freiberufler",
+        "myCompany": "Mein Unternehmen",
+        "myFreelancerAccount": "Freelancer Dashboard",
+        "myJobPosts": "Meine Stellenanzeigen",
+        "postAJob": "Job ausschreiben",
+        "profileSettings": "Profil-Einstellungen"
+      },
+      "profile": {
+        "loginProviders": "Login-Anbieter:"
+      }
+    }
+  },
+  "pl": {
+    "buttons": {
+      "close": "Zamknij"
+    },
+    "contact": {
+      "message": "Jeśli masz jakieś pytania, skontaktuj się z nami.",
+      "subtitle": "Jesteśmy tutaj, aby Ci pomóc.",
+      "thankYou": "Dzięki!",
+      "title": "Kontakt"
+    },
+    "generic": {
+      "N/A": "NIE DOTYCZY",
+      "No": "Nie",
+      "Yes": "Tak",
+      "active": "Aktywny",
+      "allRightsReserved": "Wszelkie prawa zastrzeżone",
+      "hiring": "Zatrudnianie",
+      "hybrid": "Hybryda",
+      "loading": "Ładowanie...",
+      "remote": "Zdalny",
+      "waitingForApproval": "W oczekiwaniu na zatwierdzenie"
+    },
+    "header": {
+      "about": "O",
+      "companies": "Firmy",
+      "contact": "Kontakt",
+      "freelancers": "Freelancerzy",
+      "hire": "Zatrudnienie programisty React",
+      "home": "Strona główna",
+      "jobs": "Oferty pracy",
+      "login": "Zaloguj się",
+      "logout": "Wylogowanie",
+      "postAJob": "Zamieszczanie ofert pracy",
+      "userMenu": {
+        "myCompany": "Moja firma",
+        "myJobs": "Moja praca",
+        "myfreelancerAccount": "Pulpit nawigacyjny freelancera",
+        "profile": "Profil"
+      }
+    },
+    "home": {
+      "applyNow": "Aplikuj teraz",
+      "bottom": {
+        "section1": {
+          "description": "Witamy na ReactCompanies.com, platformie 🌐 do wszystkiego, co związane z React.js i Next.js! Niezależnie od tego, czy jesteś programistą frontendowym 🧑‍💻, firmą poszukującą talentów 🏢, czy po prostu fanem Reacta, tutaj znajdziesz coś dla siebie. Poznaj najlepsze firmy 🏆 pracujące z React.js, znajdź ekscytujące oferty pracy 💼 lub podziel się własną historią sukcesu React!",
+          "title": "O ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "wyselekcjonowane oferty pracy React.js i Next.js od wiodących firm",
+            "szybko rozwijająca się globalna społeczność deweloperów",
+            "możliwości zatrudnienia na całym świecie",
+            "łatwe wyszukiwanie ofert pracy i filtry",
+            "bezpośredni kontakt z najlepszymi rekruterami",
+            "100% za darmo!"
+          ],
+          "title": "Dlaczego warto wybrać nas?"
+        },
+        "section3": {
+          "messages": {
+            "1": "Czy jesteś zainteresowany, aby uzyskać sugestię lub wybrać miejsce? To bardzo proste! 🎉 Skontaktuj się z nami, a my odpowiemy.",
+            "2": "Dołącz do nas w mediach społecznościowych 🌐 i dołącz do naszej społeczności, aby otrzymywać najnowsze porady dotyczące React.js."
+          },
+          "title": "Zaangażuj się"
+        }
+      },
+      "featuredJobs": "Polecane oferty pracy",
+      "freelancers": {
+        "hour": "za godzinę"
+      },
+      "openJobs": "Otwarte oferty pracy",
+      "viewAllJobs": "Zobacz wszystkie oferty pracy"
+    },
+    "homepage": {
+      "featuredCompanies": "Polecane firmy",
+      "featuredFreelancers": "Najlepsi freelancerzy i wykonawcy",
+      "subtitle": "Odkryj firmy wykorzystujące React.js i znajdź swoją kolejną szansę w ekosystemie React.js.",
+      "title": "Łączenie {0} firm React.js {1} {2} z utalentowanymi programistami",
+      "viewMoreCompanies": "Poznaj więcej firm"
+    },
+    "job": {
+      "useHead": {
+        "description": "{title} at {company} is hiring a React.js developer & contractor or freelancer - React Jobs",
+        "title": "{tytuł} w {firma} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Rodzaje zatrudnienia:",
+      "seniorityLevels": "Poziomy stażu pracy:"
+    },
+    "login": {
+      "backToLogin": "Powrót do logowania",
+      "confirmPassword": "Potwierdź hasło",
+      "email": "E-mail",
+      "emailError": "Nieprawidłowy adres e-mail",
+      "forgotPassword": "Zapomniałeś hasła?",
+      "login": "Zaloguj się",
+      "or": "lub",
+      "password": "Hasło",
+      "passwordErrorMin": "Hasło musi składać się z co najmniej {0} znaków",
+      "passwordMatchError": "Hasła nie są zgodne",
+      "register": "Rejestr",
+      "registerNow": "Nowy tutaj? Zarejestruj się teraz →",
+      "resetPassword": "Resetowanie hasła",
+      "text": "Możesz użyć swojego konta do {0}",
+      "withX": "z {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{name} jest programistą React.js specjalizującym się w pracy freelancerskiej i kontraktowej.",
+        "title": "{name} - React.js Developer - Freelancer - Kontrahent"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Szukaj..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "Wystąpił błąd podczas zapisywania informacji o firmie. Spróbuj ponownie później.",
+          "errorField": "Pole {0} nie może pozostać puste.",
+          "foundedYear": "Rok założenia",
+          "headquarters": "Siedziba główna",
+          "logo": "Logo",
+          "name": "Nazwa",
+          "save": "Profil firmy Save",
+          "success": "Informacje o firmie zostały pomyślnie zapisane."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Kraj",
+          "currency": "Waluta",
+          "description": "Opis",
+          "email": "E-mail",
+          "error": "Wystąpił błąd podczas zapisywania profilu freelancera. Spróbuj ponownie później.",
+          "github": "GitHub",
+          "githubPlaceholder": "Adres URL profilu GitHub",
+          "img": "Adres URL zdjęcia awatara",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "Adres URL profilu LinkedIn",
+          "medium": "Średni",
+          "mediumPlaceholder": "Adres URL profilu Medium",
+          "name": "Nazwa",
+          "perHourPrice": "Stawka godzinowa",
+          "save": "Zapisz profil freelancera",
+          "saving": "Oszczędzanie...",
+          "success": "Profil freelancera został pomyślnie zapisany.",
+          "title": "Tytuł",
+          "username": "Nazwa użytkownika",
+          "website": "Strona internetowa"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Link do podania o pracę",
+          "applyLinkPlaceholder": "Adres URL podania o pracę, np. https://linkedin.com...",
+          "company": "Nazwa firmy",
+          "country": "Kraj",
+          "createCompany": "Utwórz profil firmy",
+          "employmentType": "Rodzaj zatrudnienia",
+          "error": "Wystąpił błąd podczas zapisywania oferty pracy. Spróbuj ponownie później.",
+          "noCompany": "Nie dodałeś jeszcze firmy. Zacznij od dodania pierwszej.",
+          "save": "Zapisz ogłoszenie o pracę",
+          "seniorityLevel": "Poziom stażu pracy",
+          "success": "Ogłoszenie o pracę zostało pomyślnie zapisane.",
+          "title": "Stanowisko",
+          "titlePlaceholder": "np. Full Stack Developer (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "Nie znaleziono żadnych ofert pracy."
+      },
+      "menu": {
+        "account": "Konto",
+        "company": "Firma",
+        "editTheJob": "Edytuj ogłoszenie o pracę",
+        "freelancer": "Freelancer",
+        "myCompany": "Moja firma",
+        "myFreelancerAccount": "Pulpit nawigacyjny freelancera",
+        "myJobPosts": "Moje posty dotyczące pracy",
+        "postAJob": "Zamieszczanie ofert pracy",
+        "profileSettings": "Ustawienia profilu"
+      },
+      "profile": {
+        "loginProviders": "Dostawcy usług logowania:"
+      }
+    }
+  },
+  "nl": {
+    "buttons": {
+      "close": "Sluit"
+    },
+    "contact": {
+      "message": "Als je vragen hebt, neem dan gerust contact met ons op.",
+      "subtitle": "We zijn er om je te helpen.",
+      "thankYou": "Bedankt!",
+      "title": "Neem contact met ons op"
+    },
+    "generic": {
+      "N/A": "N.V.T",
+      "No": "Geen",
+      "Yes": "Ja",
+      "active": "Actief",
+      "allRightsReserved": "Alle rechten voorbehouden",
+      "hiring": "Inhuren",
+      "hybrid": "Hybride",
+      "loading": "Aan het laden...",
+      "remote": "Op afstand",
+      "waitingForApproval": "In afwachting van goedkeuring"
+    },
+    "header": {
+      "about": "Over",
+      "companies": "Bedrijven",
+      "contact": "Neem contact op met",
+      "freelancers": "Freelancers",
+      "hire": "Een React-ontwikkelaar inhuren",
+      "home": "Home",
+      "jobs": "Vacatures",
+      "login": "Inloggen",
+      "logout": "Afmelden",
+      "postAJob": "Een vacature plaatsen",
+      "userMenu": {
+        "myCompany": "Mijn bedrijf",
+        "myJobs": "Mijn banen",
+        "myfreelancerAccount": "Freelancer Dashboard",
+        "profile": "Profiel"
+      }
+    },
+    "home": {
+      "applyNow": "Nu solliciteren",
+      "bottom": {
+        "section1": {
+          "description": "Welkom bij ReactCompanies.com, uw platform 🌐 voor alles wat met React.js en Next.js te maken heeft! Of je nu een gedreven frontend developer 🧑‍💻 bent, een bedrijf op zoek naar talent 🏢 of gewoon een fan van React, er is hier iets voor jou. Ontdek de topbedrijven 🏆 die met React.js werken, vind spannende vacatures 💼 of deel je eigen React-succesverhaal!",
+          "title": "Over ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Verzamelde React.js en Next.js banen van toonaangevende bedrijven",
+            "snelgroeiende wereldwijde gemeenschap van ontwikkelaars",
+            "wereldwijde vacatures",
+            "🔍 Moeiteloos zoeken naar vacatures en filters",
+            "🤝 Rechtstreeks in contact komen met toprecruiters",
+            "100% gratis te gebruiken!"
+          ],
+          "title": "Waarom voor ons kiezen?"
+        },
+        "section3": {
+          "messages": {
+            "1": "Bent u geïnteresseerd in een locatie of wilt u een locatie kiezen? Dat is heel eenvoudig! 🎉 Neem contact met ons op en wij zullen u verder helpen.",
+            "2": "Folgen Sie uns auf den sozialen Medien 🌐 und treten Sie unserer Community bei, um die neuesten React.js-Angebote zu erhalten."
+          },
+          "title": "Schakel Sie sich in"
+        }
+      },
+      "featuredJobs": "Aanbevolen banen",
+      "freelancers": {
+        "hour": "per uur"
+      },
+      "openJobs": "Openstaande vacatures",
+      "viewAllJobs": "Bekijk alle vacatures"
+    },
+    "homepage": {
+      "featuredCompanies": "Aanbevolen bedrijven",
+      "featuredFreelancers": "Top Freelancers & Aannemers",
+      "subtitle": "Ontdek bedrijven die React.js gebruiken en vind uw volgende kans in het React.js-ecosysteem.",
+      "title": "Het verbinden van {0}React.js bedrijven{1} {2} met getalenteerde ontwikkelaars",
+      "viewMoreCompanies": "Ontdek meer bedrijven"
+    },
+    "job": {
+      "useHead": {
+        "description": "{title} bij {company} zoekt een React.js ontwikkelaar & contractor of freelancer - React Jobs",
+        "title": "{titel} bij {bedrijf} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Soorten werk:",
+      "seniorityLevels": "Anciënniteitsniveaus:"
+    },
+    "login": {
+      "backToLogin": "Terug naar aanmelden",
+      "confirmPassword": "Wachtwoord bevestigen",
+      "email": "E-mail",
+      "emailError": "Ongeldig e-mailadres",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "login": "Inloggen",
+      "or": "of",
+      "password": "Wachtwoord",
+      "passwordErrorMin": "Wachtwoord moet minstens {0} tekens bevatten",
+      "passwordMatchError": "Wachtwoorden komen niet overeen",
+      "register": "Registreer",
+      "registerNow": "Nieuw hier? Nu aanmelden →",
+      "resetPassword": "Wachtwoord opnieuw instellen",
+      "text": "Je kunt je account gebruiken om {0}",
+      "withX": "met {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{naam} is een expert React.js ontwikkelaar gespecialiseerd in freelance en contractwerk.",
+        "title": "{naam} - React.js ontwikkelaar - Freelancer - Aannemer"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Zoeken..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "Er is een fout opgetreden tijdens het opslaan van de bedrijfsinformatie. Probeer het later nog eens.",
+          "errorField": "Het {0} veld kan niet leeg blijven.",
+          "foundedYear": "Jaar van oprichting",
+          "headquarters": "Hoofdkantoor",
+          "logo": "Logo",
+          "name": "Naam",
+          "save": "Profiel opslaan",
+          "success": "Bedrijfsinformatie succesvol opgeslagen."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Land",
+          "currency": "Valuta",
+          "description": "Beschrijving",
+          "email": "E-mail",
+          "error": "Er is een fout opgetreden tijdens het opslaan van het profiel van de freelancer. Probeer het later nog eens.",
+          "github": "GitHub",
+          "githubPlaceholder": "GitHub profiel URL",
+          "img": "Avatar Foto URL",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "LinkedIn Profiel URL",
+          "medium": "Medium",
+          "mediumPlaceholder": "Medium Profiel URL",
+          "name": "Naam",
+          "perHourPrice": "Uurtarief",
+          "save": "Freelancer profiel opslaan",
+          "saving": "Besparen...",
+          "success": "Freelancer profiel succesvol opgeslagen.",
+          "title": "Titel",
+          "username": "Gebruikersnaam",
+          "website": "Website"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Sollicitatielink",
+          "applyLinkPlaceholder": "De URL van je sollicitatie, bijvoorbeeld https://linkedin.com...",
+          "company": "Bedrijfsnaam",
+          "country": "Land",
+          "createCompany": "Een bedrijfsprofiel maken",
+          "employmentType": "Type werk",
+          "error": "Er is een fout opgetreden tijdens het opslaan van de vacature. Probeer het later nog eens.",
+          "noCompany": "Je hebt nog geen bedrijf toegevoegd. Begin met het toevoegen van je eerste bedrijf.",
+          "save": "Vacature opslaan",
+          "seniorityLevel": "Senioriteitsniveau",
+          "success": "Vacature succesvol opgeslagen.",
+          "title": "Functie",
+          "titlePlaceholder": "bijv. Full Stack Developer (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "Geen vacatures gevonden."
+      },
+      "menu": {
+        "account": "Account",
+        "company": "Bedrijf",
+        "editTheJob": "Vacature bewerken",
+        "freelancer": "Freelancer",
+        "myCompany": "Mijn bedrijf",
+        "myFreelancerAccount": "Freelancer Dashboard",
+        "myJobPosts": "Mijn vacatures",
+        "postAJob": "Een vacature plaatsen",
+        "profileSettings": "Profielinstellingen"
+      },
+      "profile": {
+        "loginProviders": "Aanmeldingsproviders:"
+      }
+    }
+  },
+  "ru": {
+    "buttons": {
+      "close": "Закрыть"
+    },
+    "contact": {
+      "message": "Если у вас возникнут вопросы, обращайтесь к нам.",
+      "subtitle": "Мы готовы помочь вам.",
+      "thankYou": "Спасибо!",
+      "title": "Свяжитесь с нами"
+    },
+    "generic": {
+      "N/A": "Н/Д",
+      "No": "Нет",
+      "Yes": "Да",
+      "active": "Активный",
+      "allRightsReserved": "Все права защищены",
+      "hiring": "Наем",
+      "hybrid": "Гибрид",
+      "loading": "Загрузка...",
+      "remote": "Удаленный",
+      "waitingForApproval": "Ожидается утверждение"
+    },
+    "header": {
+      "about": "О сайте",
+      "companies": "Компании",
+      "contact": "Связаться с",
+      "freelancers": "Фрилансеры",
+      "hire": "Нанять разработчика React",
+      "home": "Главная",
+      "jobs": "Объявления о вакансиях",
+      "login": "Войти",
+      "logout": "Выход из системы",
+      "postAJob": "Разместить вакансию",
+      "userMenu": {
+        "myCompany": "Моя компания",
+        "myJobs": "Моя работа",
+        "myfreelancerAccount": "Приборная панель фрилансера",
+        "profile": "Профиль"
+      }
+    },
+    "home": {
+      "applyNow": "Применить сейчас",
+      "bottom": {
+        "section1": {
+          "description": "Добро пожаловать на ReactCompanies.com, вашу платформу 🌐 для всего, что связано с React.js и Next.js! Независимо от того, являетесь ли вы целеустремленным фронтенд-разработчиком 🧑‍💻, компанией, ищущей таланты 🏢, или просто поклонником React, здесь найдется что-то для вас. Ознакомьтесь с лучшими компаниями 🏆, работающими с React.js, найдите интересные вакансии 💼 или поделитесь своей собственной историей успеха React!",
+          "title": "О компании ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Подборка вакансий в React.js и Next.js от ведущих компаний",
+            "🚀 Быстрорастущее глобальное сообщество разработчиков",
+            "🌍 Вакансии по всему миру",
+            "🔍 Удобный поиск работы и фильтры",
+            "🤝 Общайтесь напрямую с лучшими рекрутерами",
+            "🎉 100% бесплатное использование!"
+          ],
+          "title": "Почему выбирают нас?"
+        },
+        "section3": {
+          "messages": {
+            "1": "Вы заинтересованы в том, чтобы вас приняли на работу или чтобы вы выбрали себе место? Это очень просто! 🎉 Свяжитесь с нами, и мы поможем вам.",
+            "2": "Поддержите нас в социальных сетях 🌐 и подтянитесь к нашему сообществу, чтобы узнать о новейших React.js-Angebote."
+          },
+          "title": "Привлеките своих друзей"
+        }
+      },
+      "featuredJobs": "Популярные вакансии",
+      "freelancers": {
+        "hour": "в час"
+      },
+      "openJobs": "Открытые вакансии",
+      "viewAllJobs": "Смотреть все вакансии"
+    },
+    "homepage": {
+      "featuredCompanies": "Популярные компании",
+      "featuredFreelancers": "Лучшие фрилансеры и подрядчики",
+      "subtitle": "Откройте для себя компании, использующие React.js, и найдите свою следующую возможность в экосистеме React.js.",
+      "title": "Соединяя {0}React.js компании{1} {2} с талантливыми разработчиками",
+      "viewMoreCompanies": "Узнайте больше компаний"
+    },
+    "job": {
+      "useHead": {
+        "description": "{title} в {компании} набирает React.js разработчика и подрядчика или фрилансера - React Jobs",
+        "title": "{title} в {компании} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "Виды занятости:",
+      "seniorityLevels": "Уровни стажа:"
+    },
+    "login": {
+      "backToLogin": "Вернуться к входу в систему",
+      "confirmPassword": "Подтвердите пароль",
+      "email": "Электронная почта",
+      "emailError": "Неверный адрес электронной почты",
+      "forgotPassword": "Забыли пароль?",
+      "login": "Войти",
+      "or": "или",
+      "password": "Пароль",
+      "passwordErrorMin": "Пароль должен состоять не менее чем из {0} символов",
+      "passwordMatchError": "Пароли не совпадают",
+      "register": "Регистрация",
+      "registerNow": "Новичок здесь? Зарегистрируйтесь сейчас →",
+      "resetPassword": "Сброс пароля",
+      "text": "Вы можете использовать свою учетную запись для {0}",
+      "withX": "с {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{name} - опытный разработчик React.js, специализирующийся на фрилансе и работе по контракту.",
+        "title": "{name} - React.js разработчик - Фрилансер - Подрядчик"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Поиск..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "При сохранении информации о компании произошла ошибка. Пожалуйста, повторите попытку позже.",
+          "errorField": "Поле {0} нельзя оставлять пустым.",
+          "foundedYear": "Год основания",
+          "headquarters": "Штаб-квартира",
+          "logo": "Логотип",
+          "name": "Имя",
+          "save": "Сохранить профиль компании",
+          "success": "Информация о компании успешно сохранена."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Страна",
+          "currency": "Валюта",
+          "description": "Описание",
+          "email": "Электронная почта",
+          "error": "При сохранении профиля фрилансера произошла ошибка. Пожалуйста, повторите попытку позже.",
+          "github": "GitHub",
+          "githubPlaceholder": "URL-адрес профиля GitHub",
+          "img": "URL-адрес фотографии аватара",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "URL-адрес профиля LinkedIn",
+          "medium": "Средний",
+          "mediumPlaceholder": "URL-адрес профиля Medium",
+          "name": "Имя",
+          "perHourPrice": "Почасовая ставка",
+          "save": "Сохранить профиль фрилансера",
+          "saving": "Экономия...",
+          "success": "Профиль фрилансера успешно сохранен.",
+          "title": "Название",
+          "username": "Имя пользователя",
+          "website": "Сайт"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "Ссылка для подачи заявления о приеме на работу",
+          "applyLinkPlaceholder": "URL-адрес вашей заявки на работу, например, https://linkedin.com...",
+          "company": "Название компании",
+          "country": "Страна",
+          "createCompany": "Создайте профиль компании",
+          "employmentType": "Тип занятости",
+          "error": "При сохранении вакансии произошла ошибка. Пожалуйста, повторите попытку позже.",
+          "noCompany": "Вы еще не добавили ни одной компании. Начните с добавления своей первой компании.",
+          "save": "Сохранить вакансию",
+          "seniorityLevel": "Уровень стажа",
+          "success": "Объявление о вакансии успешно сохранено.",
+          "title": "Название должности",
+          "titlePlaceholder": "например, разработчик полного стека (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "Рабочие места не найдены."
+      },
+      "menu": {
+        "account": "Счет",
+        "company": "Компания",
+        "editTheJob": "Редактировать объявление о работе",
+        "freelancer": "Фрилансер",
+        "myCompany": "Моя компания",
+        "myFreelancerAccount": "Приборная панель фрилансера",
+        "myJobPosts": "Мои вакансии",
+        "postAJob": "Разместить вакансию",
+        "profileSettings": "Настройки профиля"
+      },
+      "profile": {
+        "loginProviders": "Поставщики логинов:"
+      }
+    }
+  },
+  "tr": {
+    "buttons": {
+      "close": "Kapat"
+    },
+    "contact": {
+      "message": "Herhangi bir sorunuz varsa, bize ulaşmaktan çekinmeyin.",
+      "subtitle": "Size yardımcı olmak için buradayız.",
+      "thankYou": "Teşekkürler!",
+      "title": "Bize Ulaşın"
+    },
+    "generic": {
+      "N/A": "N/A",
+      "No": "Hayır",
+      "Yes": "Evet",
+      "active": "Aktif",
+      "allRightsReserved": "Tüm hakları saklıdır",
+      "hiring": "İşe Alım",
+      "hybrid": "Hibrit",
+      "loading": "Yükleniyor...",
+      "remote": "Uzaktan Kumanda",
+      "waitingForApproval": "Onay Bekliyor"
+    },
+    "header": {
+      "about": "Hakkında",
+      "companies": "Şirketler",
+      "contact": "İletişim",
+      "freelancers": "Serbest Çalışanlar",
+      "hire": "Bir React Geliştiricisi İşe Alın",
+      "home": "Ev",
+      "jobs": "İş İlanları",
+      "login": "Giriş yap",
+      "logout": "Oturumu Kapat",
+      "postAJob": "İş İlanı Gönder",
+      "userMenu": {
+        "myCompany": "Benim Şirketim",
+        "myJobs": "Benim İşlerim",
+        "myfreelancerAccount": "Freelancer Gösterge Tablosu",
+        "profile": "Profil"
+      }
+    },
+    "home": {
+      "applyNow": "Şimdi başvurun",
+      "bottom": {
+        "section1": {
+          "description": "React.js ve Next.js ile ilgili her şey için başvuracağınız platform 🌐 olan ReactCompanies.com'a hoş geldiniz! İster azimli bir ön uç geliştiricisi 🧑‍💻, ister yetenek arayan bir şirket 🏢 ya da sadece bir React hayranı olun, burada sizin için bir şeyler var. React.js ile çalışan en iyi şirketleri 🏆 keşfedin, heyecan verici iş fırsatları 💼 bulun veya kendi React başarı hikayenizi paylaşın!",
+          "title": "ReactCompanies Hakkında"
+        },
+        "section2": {
+          "messages": [
+            "🌟 Önde gelen şirketlerden seçilmiş React.js ve Next.js işleri",
+            "🚀 Hızla büyüyen küresel geliştirici topluluğu",
+            "🌍 Dünya çapında iş fırsatları",
+            "🔍 Zahmetsiz iş arama ve filtreler",
+            "🤝 En iyi işe alım uzmanlarıyla doğrudan bağlantı kurun",
+            "🎉 %100 ücretsiz kullanım!"
+          ],
+          "title": "Neden Bizi Seçmelisiniz?"
+        },
+        "section3": {
+          "messages": {
+            "1": "İlgileniyor musunuz, ziyaret etmek mi istiyorsunuz ya da bir yer mi arıyorsunuz? Bu çok kolay! 🎉 Bizimle iletişime geçin, biz de size yardımcı olalım.",
+            "2": "Bizi sosyal medyada takip edin 🌐 ve en yeni React.js-Angebote'larını öğrenmek için Topluluğumuzu ziyaret edin."
+          },
+          "title": "İletişimde Kalalım"
+        }
+      },
+      "featuredJobs": "Öne Çıkan İşler",
+      "freelancers": {
+        "hour": "saat başına"
+      },
+      "openJobs": "Açık İşler",
+      "viewAllJobs": "Tüm İşleri Gör"
+    },
+    "homepage": {
+      "featuredCompanies": "Öne Çıkan Şirketler",
+      "featuredFreelancers": "En İyi Serbest Çalışanlar ve Yükleniciler",
+      "subtitle": "React.js'den yararlanan şirketleri keşfedin ve React.js ekosistemindeki bir sonraki fırsatınızı bulun.",
+      "title": "Yetenekli Geliştiricilerle{2} {0}React.js Şirketlerini{1} Buluşturur",
+      "viewMoreCompanies": "Daha Fazla Şirket Keşfedin"
+    },
+    "job": {
+      "useHead": {
+        "description": "{şirketinde} {başlık} React.js geliştiricisi ve yüklenicisi veya serbest çalışan arıyor - React Jobs",
+        "title": "{şirkette} {başlık} - React İş İlanları"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "İstihdam Türleri:",
+      "seniorityLevels": "Kıdem Seviyeleri:"
+    },
+    "login": {
+      "backToLogin": "Girişe Geri Dön",
+      "confirmPassword": "Şifreyi Onayla",
+      "email": "E-posta",
+      "emailError": "Geçersiz e-posta adresi",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "login": "Giriş yap",
+      "or": "veya",
+      "password": "Şifre",
+      "passwordErrorMin": "Parola en az {0} karakterden oluşmalıdır",
+      "passwordMatchError": "Parolalar eşleşmiyor",
+      "register": "Kayıt Olun",
+      "registerNow": "Burada yeni misiniz? Şimdi kaydolun →",
+      "resetPassword": "Şifre Sıfırlama",
+      "text": "Hesabınızı {0} için kullanabilirsiniz",
+      "withX": "ile {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{isim}, serbest ve sözleşmeli çalışma konusunda uzmanlaşmış uzman bir React.js geliştiricisidir.",
+        "title": "{isim} - React.js Geliştiricisi - Freelancer - Yüklenici"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "Arama..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "Şirket bilgileri kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+          "errorField": "0} alanı boş bırakılamaz.",
+          "foundedYear": "Kurulduğu Yıl",
+          "headquarters": "Genel Merkez",
+          "logo": "Logo",
+          "name": "İsim",
+          "save": "Save Şirket Profili",
+          "success": "Şirket bilgileri başarıyla kaydedildi."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "Ülke",
+          "currency": "Para Birimi",
+          "description": "Açıklama",
+          "email": "E-posta",
+          "error": "Serbest çalışan profili kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+          "github": "GitHub",
+          "githubPlaceholder": "GitHub Profil URL'si",
+          "img": "Avatar Fotoğraf URL'si",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "LinkedIn Profil URL'si",
+          "medium": "Orta",
+          "mediumPlaceholder": "Medium Profil URL'si",
+          "name": "İsim",
+          "perHourPrice": "Saatlik Ücret",
+          "save": "Freelancer Profilini Kaydet",
+          "saving": "Tasarruf.",
+          "success": "Freelancer profili başarıyla kaydedildi.",
+          "title": "Başlık",
+          "username": "Kullanıcı Adı",
+          "website": "Web sitesi"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "İş Başvuru Linki",
+          "applyLinkPlaceholder": "İş başvurusu URL'niz, örneğin, https://linkedin.com...",
+          "company": "Şirket Adı",
+          "country": "Ülke",
+          "createCompany": "Şirket Profili Oluşturun",
+          "employmentType": "İstihdam Türü",
+          "error": "İş ilanı kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+          "noCompany": "Henüz bir şirket eklemediniz. İlk şirketinizi ekleyerek başlayın.",
+          "save": "İş İlanını Kaydet",
+          "seniorityLevel": "Kıdem Seviyesi",
+          "success": "İş ilanı başarıyla kaydedildi.",
+          "title": "İş Ünvanı",
+          "titlePlaceholder": "örneğin, Full Stack Developer (React, Node.js, PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "İş bulunamadı."
+      },
+      "menu": {
+        "account": "Hesap",
+        "company": "Şirket",
+        "editTheJob": "İş İlanını Düzenle",
+        "freelancer": "Serbest Çalışan",
+        "myCompany": "Benim Şirketim",
+        "myFreelancerAccount": "Freelancer Gösterge Tablosu",
+        "myJobPosts": "İş Gönderilerim",
+        "postAJob": "İş İlanı Gönder",
+        "profileSettings": "Profil Ayarları"
+      },
+      "profile": {
+        "loginProviders": "Giriş sağlayıcıları:"
+      }
+    }
+  },
+  "ar": {
+    "buttons": {
+      "close": "إغلاق"
+    },
+    "contact": {
+      "message": "إذا كانت لديك أي أسئلة، فلا تتردد في التواصل معنا.",
+      "subtitle": "نحن هنا لمساعدتك.",
+      "thankYou": "شكراً لك!",
+      "title": "اتصل بنا"
+    },
+    "generic": {
+      "N/A": "غير متاح",
+      "No": "لا يوجد",
+      "Yes": "نعم",
+      "active": "نشط",
+      "allRightsReserved": "جميع الحقوق محفوظة",
+      "hiring": "التوظيف",
+      "hybrid": "هجين",
+      "loading": "جاري التحميل...",
+      "remote": "جهاز التحكم عن بُعد",
+      "waitingForApproval": "في انتظار الموافقة"
+    },
+    "header": {
+      "about": "نبذة عن",
+      "companies": "الشركات",
+      "contact": "اتصل بنا",
+      "freelancers": "العاملون لحسابهم الخاص",
+      "hire": "توظيف مطوِّر React",
+      "home": "الصفحة الرئيسية",
+      "jobs": "قوائم الوظائف",
+      "login": "تسجيل الدخول",
+      "logout": "تسجيل الخروج",
+      "postAJob": "انشر وظيفة",
+      "userMenu": {
+        "myCompany": "شركتي",
+        "myJobs": "وظائفي",
+        "myfreelancerAccount": "لوحة معلومات الموظف المستقل",
+        "profile": "الملف الشخصي"
+      }
+    },
+    "home": {
+      "applyNow": "قدم طلبك الآن",
+      "bottom": {
+        "section1": {
+          "description": "مرحبًا بك في ReactCompanies.com، منصتك المفضلة 🌐 لكل ما يتعلق بـ React.js و Next.js! سواءً كنت مطور واجهة أمامية متحمسًا 🧑‍💻، أو شركة تبحث عن مواهب 🏢، أو مجرد معجب بـ React، فهناك شيء ما هنا يناسبك. استكشف أفضل الشركات 🏆 التي تعمل مع React.js، واعثر على فرص عمل مثيرة 💼 أو شارك قصة نجاحك في React!",
+          "title": "نبذة عن شركة ReactCompanies"
+        },
+        "section2": {
+          "messages": [
+            "🌟 وظائف React.js و Next.js المنسقة من الشركات الرائدة",
+            "🚀 مجتمع عالمي سريع النمو من المطورين",
+            "فرص عمل في جميع أنحاء العالم",
+            "🔍 بحث سهل عن الوظائف ومرشحات الوظائف",
+            "🤝 تواصل مباشرة مع كبار مسؤولي التوظيف",
+            "🎉 مجاني 100% للاستخدام!"
+          ],
+          "title": "لماذا تختارنا؟"
+        },
+        "section3": {
+          "messages": {
+            "1": "هل أنت مهتم بالبحث عن مكان أو مكان آخر؟ Das ist ganz einfach! 🎉 Kontaktieren Sie uns، ونحن نساعدك.",
+            "2": "تابعنا على وسائل الإعلام الاجتماعية 🌐 وتعرّف على مجتمعنا من أجل الحصول على أحدث React.js-Angebote."
+          },
+          "title": "إشراكك في"
+        }
+      },
+      "featuredJobs": "وظائف مميزة",
+      "freelancers": {
+        "hour": "في الساعة"
+      },
+      "openJobs": "الوظائف الشاغرة",
+      "viewAllJobs": "عرض جميع الوظائف"
+    },
+    "homepage": {
+      "featuredCompanies": "الشركات المميزة",
+      "featuredFreelancers": "أفضل العاملين المستقلين والمقاولين المستقلين",
+      "subtitle": "اكتشف الشركات التي تستفيد من React.js واعثر على فرصتك التالية في منظومة React.js.",
+      "title": "توصيل {0} شركات {0}React.js{1} {2} مع المطورين الموهوبين",
+      "viewMoreCompanies": "استكشف المزيد من الشركات"
+    },
+    "job": {
+      "useHead": {
+        "description": "{العنوان} في {الشركة} توظف مطور React.js ومقاول أو مستقل - وظائف React",
+        "title": "{المسمى الوظيفي} في {الشركة} - وظائف ريكت"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "أنواع الوظائف:",
+      "seniorityLevels": "مستويات الأقدمية:"
+    },
+    "login": {
+      "backToLogin": "العودة إلى تسجيل الدخول",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "email": "البريد الإلكتروني",
+      "emailError": "عنوان بريد إلكتروني غير صالح",
+      "forgotPassword": "هل نسيت كلمة المرور الخاصة بك؟",
+      "login": "تسجيل الدخول",
+      "or": "أو",
+      "password": "كلمة المرور",
+      "passwordErrorMin": "يجب أن تكون كلمة المرور {0} حرفاً على الأقل",
+      "passwordMatchError": "كلمات المرور غير متطابقة",
+      "register": "التسجيل",
+      "registerNow": "هل أنت جديد هنا؟ اشترك الآن →",
+      "resetPassword": "إعادة تعيين كلمة المرور",
+      "text": "يمكنك استخدام حسابك لـ {0}",
+      "withX": "مع {0}"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{الاسم} مطور خبير في React.js متخصص في العمل المستقل والتعاقد.",
+        "title": "{الاسم} - مطور React.js - مستقل - مقاول"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "بحث..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "حدث خطأ أثناء حفظ معلومات الشركة. يرجى المحاولة مرة أخرى لاحقاً.",
+          "errorField": "لا يمكن ترك الحقل {0} فارغاً.",
+          "foundedYear": "سنة التأسيس",
+          "headquarters": "المقر الرئيسي",
+          "logo": "الشعار",
+          "name": "الاسم",
+          "save": "حفظ الملف الشخصي للشركة",
+          "success": "تم حفظ معلومات الشركة بنجاح."
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "البلد",
+          "currency": "العملة",
+          "description": "الوصف",
+          "email": "البريد الإلكتروني",
+          "error": "حدث خطأ أثناء حفظ الملف الشخصي للموظف المستقل. يرجى المحاولة مرة أخرى لاحقاً.",
+          "github": "جيثب",
+          "githubPlaceholder": "رابط الملف الشخصي في GitHub",
+          "img": "عنوان URL الصورة الرمزية للصور الرمزية",
+          "linkedin": "لينكد إن",
+          "linkedinPlaceholder": "عنوان URL للملف الشخصي على لينكد إن إن",
+          "medium": "متوسط",
+          "mediumPlaceholder": "عنوان URL للملف الشخصي المتوسط",
+          "name": "الاسم",
+          "perHourPrice": "المعدل بالساعة",
+          "save": "حفظ الملف الشخصي للموظف المستقل",
+          "saving": "التوفير...",
+          "success": "تم حفظ ملف التعريف المستقل بنجاح.",
+          "title": "العنوان",
+          "username": "اسم المستخدم",
+          "website": "الموقع الإلكتروني"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "رابط التقديم للوظيفة",
+          "applyLinkPlaceholder": "عنوان URL لطلب التوظيف الخاص بك، على سبيل المثال، https://linkedin.com...",
+          "company": "اسم الشركة",
+          "country": "البلد",
+          "createCompany": "إنشاء ملف تعريف الشركة",
+          "employmentType": "نوع الوظيفة",
+          "error": "حدث خطأ أثناء حفظ إعلان الوظيفة. يرجى المحاولة مرة أخرى لاحقاً.",
+          "noCompany": "لم تقم بإضافة شركة بعد. ابدأ بإضافة شركتك الأولى.",
+          "save": "حفظ الإعلان عن الوظيفة",
+          "seniorityLevel": "مستوى الأقدمية",
+          "success": "تم حفظ الإعلان عن الوظيفة بنجاح.",
+          "title": "المسمى الوظيفي",
+          "titlePlaceholder": "على سبيل المثال، مطور برامج متكامل (React، Node.js، PostgreSQL)"
+        }
+      },
+      "jobs": {
+        "nojob": "لم يتم العثور على وظائف"
+      },
+      "menu": {
+        "account": "الحساب",
+        "company": "الشركة",
+        "editTheJob": "تحرير الإعلان عن الوظيفة",
+        "freelancer": "موظف مستقل",
+        "myCompany": "شركتي",
+        "myFreelancerAccount": "لوحة معلومات الموظف المستقل",
+        "myJobPosts": "مشاركاتي الوظيفية",
+        "postAJob": "انشر وظيفة",
+        "profileSettings": "إعدادات الملف الشخصي"
+      },
+      "profile": {
+        "loginProviders": "مزودو تسجيل الدخول:"
+      }
+    }
+  },
+  "ja": {
+    "buttons": {
+      "close": "閉じる"
+    },
+    "contact": {
+      "message": "ご不明な点がございましたら、お気軽にお問い合わせください。",
+      "subtitle": "私たちがお手伝いします。",
+      "thankYou": "ありがとう！",
+      "title": "お問い合わせ"
+    },
+    "generic": {
+      "N/A": "該当なし",
+      "No": "いいえ",
+      "Yes": "はい",
+      "active": "アクティブ",
+      "allRightsReserved": "無断複写・転載を禁じます。",
+      "hiring": "雇用",
+      "hybrid": "ハイブリッド",
+      "loading": "読み込み中...",
+      "remote": "リモート",
+      "waitingForApproval": "承認申請中"
+    },
+    "header": {
+      "about": "について",
+      "companies": "企業",
+      "contact": "連絡先",
+      "freelancers": "フリーランサー",
+      "hire": "リアクト開発者を雇う",
+      "home": "ホーム",
+      "jobs": "求人情報",
+      "login": "ログイン",
+      "logout": "ログアウト",
+      "postAJob": "仕事を掲載する",
+      "userMenu": {
+        "myCompany": "私の会社",
+        "myJobs": "私の仕事",
+        "myfreelancerAccount": "フリーランサーダッシュボード",
+        "profile": "プロフィール"
+      }
+    },
+    "home": {
+      "applyNow": "今すぐ申し込む",
+      "bottom": {
+        "section1": {
+          "description": "ReactCompanies.comへようこそ。React.jsとNext.jsのことなら何でもお任せください！🧑‍💻、フロントエンド開発者、人材を探している企業、またはReactの単なるファンなど、どのような方でもご利用いただけます。React.jsで活躍するトップ企業🏆を探したり、エキサイティングな求人💼を見つけたり、あなた自身のReactサクセスストーリーを共有しましょう！",
+          "title": "ReactCompaniesについて"
+        },
+        "section2": {
+          "messages": [
+            "🌟大手企業のReact.jsとNext.jsの求人をキュレーション",
+            "急成長するグローバルな開発者コミュニティ",
+            "🌍 世界的な雇用機会",
+            "🔍 簡単な求人検索とフィルター",
+            "🤝 トップクラスのリクルーターと直接つながる",
+            "100%無料でご利用いただけます！"
+          ],
+          "title": "当社を選ぶ理由"
+        },
+        "section3": {
+          "messages": {
+            "1": "ご興味がおありでしたら、ご連絡ください。とても簡単です！ぜひご連絡ください。",
+            "2": "最新のReact.js-Angeboteを入手するために、ソーシャルメディア🌐で私たちのコミュニティに参加してください。"
+          },
+          "title": "お問い合わせ"
+        }
+      },
+      "featuredJobs": "注目の求人情報",
+      "freelancers": {
+        "hour": "1時間あたり"
+      },
+      "openJobs": "オープン・ジョブズ",
+      "viewAllJobs": "すべての求人を見る"
+    },
+    "homepage": {
+      "featuredCompanies": "注目企業",
+      "featuredFreelancers": "トップ・フリーランサー＆請負業者",
+      "subtitle": "React.jsを活用している企業を発見し、React.jsエコシステムで次のチャンスを見つけましょう。",
+      "title": "{0}React.js企業{1}をつなぐ{2}と優秀な開発者",
+      "viewMoreCompanies": "その他の企業"
+    },
+    "job": {
+      "useHead": {
+        "description": "{会社}の{タイトル}がReact.js開発者＆契約社員またはフリーランサーを募集しています - React Jobs",
+        "title": "{会社}での{タイトル} - React Jobs"
+      }
+    },
+    "jobs": {
+      "employeeTypes": "雇用形態",
+      "seniorityLevels": "年功序列レベル："
+    },
+    "login": {
+      "backToLogin": "ログインに戻る",
+      "confirmPassword": "パスワードの確認",
+      "email": "電子メール",
+      "emailError": "無効なメールアドレス",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "login": "ログイン",
+      "or": "または",
+      "password": "パスワード",
+      "passwordErrorMin": "パスワードは少なくとも{0}文字でなければならない",
+      "passwordMatchError": "パスワードが一致しない",
+      "register": "登録",
+      "registerNow": "初めてですか？今すぐ登録する",
+      "resetPassword": "パスワードのリセット",
+      "text": "0}にアカウントを使用することができます。",
+      "withX": "を{0}とする。"
+    },
+    "react-freelancer": {
+      "useHead": {
+        "description": "{name}はフリーランスや契約社員を専門とするReact.jsのエキスパート開発者です。",
+        "title": "{名前} - React.js開発者 - フリーランサー - 契約社員"
+      }
+    },
+    "ui": {
+      "form": {
+        "select": {
+          "search": "検索..."
+        }
+      }
+    },
+    "user": {
+      "company": {
+        "form": {
+          "error": "会社情報の保存中にエラーが発生しました。後でもう一度お試しください。",
+          "errorField": "0}フィールドを空白にすることはできない。",
+          "foundedYear": "設立年",
+          "headquarters": "本社",
+          "logo": "ロゴ",
+          "name": "名称",
+          "save": "会社概要を保存",
+          "success": "会社情報が正常に保存されました。"
+        }
+      },
+      "freelancer": {
+        "form": {
+          "country": "国名",
+          "currency": "通貨",
+          "description": "説明",
+          "email": "電子メール",
+          "error": "フリーランサーのプロフィールを保存中にエラーが発生しました。後で再試行してください。",
+          "github": "ギットハブ",
+          "githubPlaceholder": "GitHubプロフィールURL",
+          "img": "アバター写真URL",
+          "linkedin": "LinkedIn",
+          "linkedinPlaceholder": "LinkedInプロフィールURL",
+          "medium": "ミディアム",
+          "mediumPlaceholder": "ミディアムプロフィールURL",
+          "name": "名称",
+          "perHourPrice": "時間給",
+          "save": "フリーランサーのプロフィールを保存",
+          "saving": "節約...",
+          "success": "フリーランサーのプロフィールが正常に保存されました。",
+          "title": "タイトル",
+          "username": "ユーザー名",
+          "website": "ウェブサイト"
+        }
+      },
+      "job": {
+        "form": {
+          "applyLink": "求人応募リンク",
+          "applyLinkPlaceholder": "求人応募URL（例：https://linkedin.com...",
+          "company": "会社名",
+          "country": "国名",
+          "createCompany": "会社概要の作成",
+          "employmentType": "雇用形態",
+          "error": "求人情報の保存中にエラーが発生しました。後でもう一度お試しください。",
+          "noCompany": "まだ会社を追加していません。最初の会社を追加してください。",
+          "save": "求人情報の保存",
+          "seniorityLevel": "シニア・レベル",
+          "success": "求人広告は正常に保存されました。",
+          "title": "役職名",
+          "titlePlaceholder": "例：フルスタックデベロッパー（React、Node.js、PostgreSQL）"
+        }
+      },
+      "jobs": {
+        "nojob": "求人は見つかりませんでした。"
+      },
+      "menu": {
+        "account": "アカウント",
+        "company": "会社概要",
+        "editTheJob": "求人広告の編集",
+        "freelancer": "フリーランサー",
+        "myCompany": "私の会社",
+        "myFreelancerAccount": "フリーランサーダッシュボード",
+        "myJobPosts": "私の仕事",
+        "postAJob": "仕事を掲載する",
+        "profileSettings": "プロフィール設定"
+      },
+      "profile": {
+        "loginProviders": "ログインプロバイダ："
+      }
+    }
+  }
+}

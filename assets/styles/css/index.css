@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* WebKit scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d1d1d1;
+}
+
+/* Firefox scrollbar styles */
+body {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #e1e1e1 #ffffff; /* thumb and track colors */
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #d1d1d1;
+}
+
+button.disabled,
+button:disabled {
+  background-color: #cccccc; /* Change the background color to gray */
+  cursor: not-allowed; /* Change the cursor to indicate the button is disabled */
+  box-shadow: none; /* Remove any shadow */
+}
+
+/* Remove hover effects when disabled */
+button.disabled:hover,
+button:disabled:hover {
+  background-color: #cccccc; /* Keep the background gray on hover */
+}
