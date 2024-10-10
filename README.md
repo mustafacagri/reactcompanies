@@ -2,6 +2,9 @@
 
 Welcome to [**www.reactcompanies.com**](https://www.reactcompanies.com/) – The ultimate hub for React.js ⚛️ and Next.js 🔗 professionals! Whether you're a seasoned developer or a company looking to hire top talent, you've come to the right place. Let's build something extraordinary together! 🌐✨
 
+![reactcompanies homepage](https://github.com/user-attachments/assets/aa7e7bfb-11f0-42a2-8f6e-c74864ca3a2f)
+
+
 ## 🎯 Our Mission
 
 At **React Companies**, our goal is to connect **React.js** and **Next.js** developers with companies 🚀 pushing the boundaries of modern web development. We believe in empowering developers 👩‍💻👨‍💻 to thrive and grow in a community driven by innovation, collaboration, and the love for cutting-edge technologies. 💙
