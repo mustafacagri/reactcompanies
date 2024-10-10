@@ -90,4 +90,4 @@ Need help or have questions? Contact us anytime! We're here to help. 😊
 - **Linkedin**: [@MustafaCagri](https://www.linkedin.com/in/mustafacagri/)
 - **LinkedIn**: [@React Companies](https://linkedin.com/company/reactcompanies)
 
-Made with ❤️ in 📍 Istanbul by the team at ReactCompanies.com!
+Made with ❤️ in 📍 Istanbul by the team at [**ReactCompanies.com**](https://www.reactcompanies.com/)!
