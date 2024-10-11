@@ -21,7 +21,7 @@ export function JobContainer({
   }
 
   return (
-    <section className={`px-4 sm:px-0 ${isFeatured ? 'py-12' : 'py-6'} ${className || 'mt-6 bg-slate-50'}`}>
+    <section className={`px-4 sm:px-0 ${isFeatured ? 'py-12' : 'py-6'} ${className ?? 'mt-6 bg-slate-50'}`}>
       <div className='mx-auto container'>
         {' '}
         <h2 className='text-2xl text-primary-700 font-bold text-center mb-8'>

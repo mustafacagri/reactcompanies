@@ -42,7 +42,7 @@ export default function Bottom() {
 
             {section2Messages.map((message: string, index: number) => (
               <p
-                key={index}
+                key={message}
                 className='mt-1'
               >
                 {message}

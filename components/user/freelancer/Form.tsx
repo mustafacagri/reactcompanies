@@ -8,23 +8,41 @@ import { useRouter } from 'next/navigation'
 import { updateFreelancer } from '@/lib/actions/user/freelancer'
 import { $t } from '@/utils/translationHelper'
 
-export default function CompanyForm({ freelancer, user }: Readonly<{ freelancer: Freelancer; user: User }>) {
+export default function FreelancerForm({ freelancer, user }: Readonly<{ freelancer: Freelancer; user: User }>) {
   const router = useRouter()
+  const {
+    name,
+    user_id,
+    title,
+    username,
+    img,
+    github,
+    medium,
+    linkedin,
+    website,
+    description,
+    country,
+    per_hour_price,
+    currency,
+  } = freelancer
+
+  const getNonEmptyValue = (value: string | null | undefined) => value ?? ''
+
   const [formData, setFormData] = useState({
-    user_id: freelancer?.user_id || user?.id || '',
-    name: freelancer?.name || user?.user_metadata?.full_name || '',
-    title: freelancer?.title || '',
-    username: freelancer?.username || '',
-    img: freelancer?.img || '',
-    github: freelancer?.github || '',
-    medium: freelancer?.medium || '',
-    linkedin: freelancer?.linkedin || '',
-    email: user?.email || '',
-    website: freelancer?.website || '',
-    description: freelancer?.description || '',
-    country: freelancer?.country || '',
-    per_hour_price: freelancer?.per_hour_price || null,
-    currency: freelancer?.currency || '',
+    user_id: user_id ?? user?.id,
+    name: (name || user?.user_metadata?.full_name) ?? '',
+    title: getNonEmptyValue(title),
+    username: getNonEmptyValue(username),
+    img: getNonEmptyValue(img),
+    github: getNonEmptyValue(github),
+    medium: getNonEmptyValue(medium),
+    linkedin: getNonEmptyValue(linkedin),
+    email: user?.email ?? '',
+    website: getNonEmptyValue(website),
+    description: getNonEmptyValue(description),
+    country: getNonEmptyValue(country),
+    per_hour_price: getNonEmptyValue(per_hour_price),
+    currency: getNonEmptyValue(currency),
   })
 
   const [isLoading, setIsLoading] = useState(false)
@@ -122,6 +140,7 @@ export default function CompanyForm({ freelancer, user }: Readonly<{ freelancer:
               placeholder={$t('user.freelancer.form.githubPlaceholder')}
             />
           </div>
+
           <div className='w-full'>
             <FormInput
               name='medium'
