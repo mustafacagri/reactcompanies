@@ -40,7 +40,7 @@ export default function Bottom() {
           <div className='mb-6 sm:mb-0 sm:w-1/3'>
             <h3 className='text-xl font-bold mb-4'>💚 {$t('home.bottom.section2.title')}</h3>
 
-            {section2Messages.map((message: string, index: number) => (
+            {section2Messages.map((message: string) => (
               <p
                 key={message}
                 className='mt-1'
