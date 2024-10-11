@@ -1,6 +1,7 @@
 import '@/app/globals.css'
 import type { Metadata } from 'next'
 import Layout from '@/components/layouts/User'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
@@ -26,6 +27,7 @@ export default function UserLayout({
       />
       <body className={poppins.className}>
         <Layout>{children}</Layout>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ?? ''} />
       </body>
     </html>
   )
