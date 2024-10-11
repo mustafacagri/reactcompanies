@@ -1,14 +1,24 @@
 'use client'
 
-import { ReactNode, useState, useEffect } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { ReactNode, useState, useEffect } from 'react'
 import { Footer, Icon, Logo } from '@/components/ui'
+import { initGA, logPageView } from '@/lib/analytics'
+import { usePathname, useSearchParams } from 'next/navigation'
 
 import { $t } from '@/utils/translationHelper'
 
 export default function UserLayout({ children }: Readonly<{ children: ReactNode }>) {
   const [currentLocale, setCurrentLocale] = useState('en')
+  const [isMenuOpened, setIsMenuOpened] = useState(false)
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
+  useEffect(() => {
+    initGA()
+    const pagePath = pathname + searchParams.toString()
+    logPageView(pagePath)
+  }, [pathname, searchParams])
 
   // Ensure localStorage is accessed only on the client side
   useEffect(() => {
@@ -57,9 +67,6 @@ export default function UserLayout({ children }: Readonly<{ children: ReactNode 
       ],
     },
   ]
-
-  const [isMenuOpened, setIsMenuOpened] = useState(false)
-  const pathname = usePathname()
 
   useEffect(() => {
     setIsMenuOpened(false)
