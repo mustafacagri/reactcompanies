@@ -57,7 +57,7 @@ export default function CompaniesBox({ company }: Readonly<{ company: Company }>
         </div>
       </div>
 
-      <p className='mt-4 text-xs text-gray-600 text-left line-clamp-2'>{company.description}</p>
+      <p className='mt-4 text-xs text-gray-600 text-left line-clamp-2'>{company.description?.substring(0, 250)}</p>
     </Link>
   )
 }
