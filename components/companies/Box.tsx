@@ -25,6 +25,10 @@ export default function CompaniesBox({ company }: Readonly<{ company: Company }>
       }))
   }
 
+  const src = company?.is_featured
+    ? `/images/small-companies/${company.slug}.jpeg`
+    : company?.logo ?? '/images/small-companies/react-companies.jpeg'
+
   return (
     <Link
       href={`/companies/${company.slug}`}
@@ -32,7 +36,7 @@ export default function CompaniesBox({ company }: Readonly<{ company: Company }>
     >
       <div className='flex items-center'>
         <img
-          src={company?.logo}
+          src={src}
           alt={company?.name}
           className='h-16 w-16 object-contain rounded-lg'
         />

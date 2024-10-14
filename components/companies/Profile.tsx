@@ -35,6 +35,10 @@ export function CompanyProfile({ company, jobs }: Readonly<{ company: Company; j
       value: company[key] ? '✅' : '❌',
     }))
 
+  const src = company?.is_featured
+    ? `/images/companies/${company.slug}.jpeg`
+    : company?.logo ?? '/images/companies/react-companies.jpeg'
+
   return (
     <>
       <div className='bg-gray-100 p-8'>
@@ -42,7 +46,7 @@ export function CompanyProfile({ company, jobs }: Readonly<{ company: Company; j
           <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center'>
             <div className='flex items-center sm:mb-0'>
               <img
-                src={company.logo}
+                src={src}
                 alt={company.name}
                 className='w-24 h-24 rounded-full object-cover'
               />
