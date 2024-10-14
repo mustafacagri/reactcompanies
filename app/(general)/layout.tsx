@@ -11,7 +11,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'React Companies: React Jobs - React.js Developers - React.js Remote Jobs',
+  title: 'React Companies: React.js Remote Jobs - React.js Developers',
   description:
     'React Companies lists companies using React.js and provides job listings for React.js developers and React.js remote jobs.',
 }
