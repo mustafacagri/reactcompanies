@@ -9,7 +9,7 @@ export function FlagCountry({
   className = '',
 }: Readonly<{ country: string; xsFlag2Lines?: boolean; className?: string }>) {
   const flag = country && ISO6391.whereCountry(country)?.alpha2 ? ISO6391.whereCountry(country)?.alpha2 : ''
-  const src = flag ? `https://hatscripts.github.io/circle-flags/flags/${flag.toLowerCase()}.svg` : ''
+  const src = flag ? `/flags/${flag.toLowerCase()}.svg` : ''
 
   const fitCountry = () => country.replace('United States of America', 'USA')
 
