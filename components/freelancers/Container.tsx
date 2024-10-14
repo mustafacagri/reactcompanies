@@ -6,13 +6,18 @@ import { $t } from '@/utils/translationHelper'
 
 export function FreelancerContainer({
   isFeatured,
+  isHomepage = false,
   freelancers,
 }: Readonly<{
   isFeatured?: boolean
+  isHomepage?: boolean
   freelancers?: Freelancer[]
 }>) {
   freelancers ??= []
   isFeatured = isFeatured ?? false
+
+  const Heading = isHomepage ? 'h2' : isFeatured ? 'h1' : 'h2'
+  const titleText = $t(isFeatured ? 'homepage.featuredFreelancers' : 'header.freelancers')
 
   if (!freelancers.length) {
     return null
@@ -20,9 +25,7 @@ export function FreelancerContainer({
 
   return (
     <section className='container mx-auto mt-6 mb-12 px-4 sm:px-0'>
-      <h2 className='text-2xl text-primary-700 font-bold text-center mb-8'>
-        🌟 {$t(isFeatured ? 'homepage.featuredFreelancers' : 'header.freelancers')}
-      </h2>
+      <Heading className='text-2xl text-primary-700 font-bold text-center mb-8'>🌟 {titleText}</Heading>
 
       <div className='flex justify-center'>
         <div

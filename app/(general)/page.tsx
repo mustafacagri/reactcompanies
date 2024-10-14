@@ -16,16 +16,19 @@ export default async function Home() {
       <Banner />
       <CompanyContainer
         isFeatured
+        isHomepage
         companies={companies}
       />
 
       <FreelancerContainer
         isFeatured
+        isHomepage
         freelancers={freelancers}
       />
 
       <JobContainer
         isFeatured
+        isHomepage
         jobs={jobs}
       />
       <Bottom />

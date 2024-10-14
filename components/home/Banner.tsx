@@ -6,7 +6,7 @@ import { $t } from '@/utils/translationHelper'
 
 export default function Banner() {
   const sanitizedTemplate = () => {
-    const template = $t('homepage.title', ['<span class="text-secondary-700">', '</span>', '<br />'])
+    const template = $t('homepage.title', ['<h1 class="text-secondary-700 inline-block">', '</h1>', '<br />'])
 
     if (typeof window !== 'undefined') {
       return DOMPurify.sanitize(template)
