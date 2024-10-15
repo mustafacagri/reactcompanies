@@ -37,7 +37,7 @@ export function Footer({ saveCurrentLocale }: Readonly<{ saveCurrentLocale: (loc
           {links.map(link => (
             <Link
               key={link.url}
-              className='text-gray-700 hover:text-blue-500'
+              className='text-gray-700 hover:text-blue-500 cursor-pointer py-3 inline-block sm:py-0'
               href={link.url}
             >
               {$t(link.name)}
@@ -49,7 +49,7 @@ export function Footer({ saveCurrentLocale }: Readonly<{ saveCurrentLocale: (loc
             <button
               key={language.locale}
               onClick={() => setLanguage(language.locale)}
-              className='text-gray-700 hover:text-blue-500 cursor-pointer'
+              className='text-gray-700 hover:text-blue-500 cursor-pointer py-3 px-4 min-h-[44px] leading-5 sm:py-1 sm:px-2 sm:min-h-[22px]'
             >
               {language.name}
             </button>
