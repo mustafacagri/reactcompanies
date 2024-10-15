@@ -19,7 +19,7 @@ export default function JobsBox({ job }: Readonly<{ job: Job }>) {
 
   return (
     <div className='bg-white p-4 rounded-lg shadow-sm outline outline-slate-100 hover:shadow-lg hover:border-slate-200'>
-      <p className='mb-1 text-xs text-gray-200'>
+      <p className='mb-1 text-xs text-gray-600'>
         {Array.isArray(job?.companies)
           ? job.companies[0]?.name // Access the name of the first company
           : job?.companies?.name}
