@@ -56,7 +56,7 @@ export function Footer({ saveCurrentLocale }: Readonly<{ saveCurrentLocale: (loc
           ))}
         </div>
         <p className='text-gray-500'>© 2024 ReactCompanies. {$t('generic.allRightsReserved')}.</p>
-        <p className='block cursor-pointer text-gray-500 text-xs mt-4 opacity-80 transition duration-300 ease-in-out transform hover:scale-105 hover:text-gray-800 hover:opacity-100'>
+        <p className='block cursor-pointer text-gray-800 text-xs mt-4 opacity-90 transition duration-300 ease-in-out transform hover:scale-105 hover:text-gray-800 hover:opacity-100'>
           Made with 🚀 React 18, 🔥 Next 14, 🔧 Typescript, 🎁 TailwindCSS, 💚 Supabase and ❤️ in 📍 Istanbul
         </p>
       </div>
