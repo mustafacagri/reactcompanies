@@ -40,7 +40,7 @@ export default function FreelancersBox({ freelancer }: Readonly<{ freelancer: Fr
         </div>
       </div>
 
-      <p className='mt-4 text-xs text-gray-600 text-left line-clamp-2'>{freelancer.description}</p>
+      <p className='mt-4 text-xs text-gray-600 text-left line-clamp-2'>{freelancer.description?.substring(0, 200)}</p>
     </Link>
   )
 }
