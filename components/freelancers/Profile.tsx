@@ -49,26 +49,30 @@ export function FreelancerProfile({ freelancer }: Readonly<{ freelancer: Freelan
           property='og:description'
           content={$t('vue-freelancer.useHead.description', [freelancer.name])}
         />
-        <meta
-          property='og:image'
-          content={freelancer.img}
-        />
+        {freelancer?.img && (
+          <meta
+            property='og:image'
+            content={freelancer?.img}
+          />
+        )}
       </Head>
 
       <div className='bg-gray-100 p-8'>
         <div className='max-w-screen-xl mx-auto'>
           <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center'>
             <div className='flex items-center mb-4 sm:mb-0'>
-              <Image
-                src={freelancer.img}
-                alt={freelancer.name}
-                className='w-24 h-24 rounded-full object-cover'
-                width={96}
-                height={96}
-              />
+              {freelancer?.img && (
+                <Image
+                  src={freelancer.img}
+                  alt={freelancer.name}
+                  className='w-24 h-24 rounded-full object-cover'
+                  width={96}
+                  height={96}
+                />
+              )}
               <div className='ml-6'>
                 <h2 className='text-xl font-bold'>{freelancer.name}</h2>
-                <p className='text-gray-600'>{freelancer.title}</p>
+                <p className='text-gray-600'>{freelancer?.title}</p>
                 {freelancer?.country && (
                   <FlagCountry
                     country={freelancer.country}
