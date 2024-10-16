@@ -17,12 +17,12 @@ export default function FreelancersBox({ freelancer }: Readonly<{ freelancer: Fr
           <Image
             src={freelancer.img}
             alt={freelancer?.name}
-            className='h-16 w-16 object-contain rounded-lg'
+            className='h-16 w-16 object-contain rounded-lg mr-4'
             width={64}
             height={64}
           />
         )}
-        <div className='ml-4'>
+        <div>
           <h3 className='text-md font-semibold text-left'>{freelancer.name}</h3>
 
           {freelancer?.country && (
